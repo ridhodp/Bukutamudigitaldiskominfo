@@ -1,0 +1,55 @@
+/* Hilangkan margin & padding global */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar biru full width */
+.navbar-custom {
+    background-color: #007bff;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Hilangkan padding default container di navbar */
+.navbar-custom .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+.sidebar .nav-link {
+    font-weight: bold;
+    color: #666;
+}
+.sidebar .nav-link.active {
+    background-color: #e9ecef;
+    color: #333;
+}
+.sidebar .nav-link:hover {
+    color: #333;
+}
+.content-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.search-container {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.user-info .fa-user-circle {
+    color: #87ceeb;
+}
