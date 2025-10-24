@@ -7,8 +7,6 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 
-// testing to commit
-
 // Fetch counts from database
 include 'config/koneksi.php';
 $query_tamu = mysqli_query($koneksi, "SELECT COUNT(*) as jumlah_tamu FROM tb_tamu");
